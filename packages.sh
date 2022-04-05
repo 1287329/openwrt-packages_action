@@ -7,8 +7,8 @@ rm -rf .svn
 svn co https://github.com/fw876/helloworld/trunk ./
 rm -rf .svn
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus
+#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
+#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus
 #svn co https://github.com/immortalwrt/luci-app-koolproxyR/trunk ./luci-app-koolproxyR
 #svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 #svn co https://github.com/lisaac/luci-lib-docker/trunk/collections/luci-lib-docker

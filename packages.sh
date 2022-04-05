@@ -14,7 +14,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./
 #svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 #svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
 #rm -rf .svn
-svn co https://github.com/fw876/helloworld/trunk ./
+#svn co https://github.com/fw876/helloworld/trunk ./
 #rm -rf .svn
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
@@ -33,7 +33,7 @@ svn co https://github.com/fw876/helloworld/trunk ./
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/baidupcs-web
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-baidupcs-web
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus
+#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-airplay2
 #svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom
 #svn co https://github.com/immortalwrt/luci-app-koolproxyR/trunk ./luci-app-koolproxyR

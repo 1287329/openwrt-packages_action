@@ -1,7 +1,7 @@
 #!/bin/bash
 #svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./luci-app-adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome ./luci-app-adguardhome
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
 rm -rf luci-app-openclash
@@ -16,7 +16,7 @@ rm -rf OpenClash
 #svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
 #rm -rf .svn
 svn co https://github.com/fw876/helloworld/trunk ./
-rm -rf .svn
+#rm -rf .svn
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns

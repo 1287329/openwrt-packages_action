@@ -1,21 +1,21 @@
 #!/bin/bash
-svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./luci-app-adguardhome
+#svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome
+#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./luci-app-adguardhome
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
-#svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
-#rm -rf luci-app-openclash
-#rm -rf OpenClash
-#git clone https://github.com/vernesong/OpenClash.git
-#mv -f OpenClash/luci-app-openclash .
-#rm -rf OpenClash
+svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
+rm -rf luci-app-openclash
+rm -rf OpenClash
+git clone https://github.com/vernesong/OpenClash.git
+mv -f OpenClash/luci-app-openclash .
+rm -rf OpenClash
 #svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
 #svn co https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk ./luci-app-jd-dailybonus
 #svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 #svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 #svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
 #rm -rf .svn
-#svn co https://github.com/fw876/helloworld/trunk ./
-#rm -rf .svn
+svn co https://github.com/fw876/helloworld/trunk ./
+rm -rf .svn
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns
@@ -31,7 +31,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusic
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
-git clone https://github.com/1287329/adbyby-plus ./luci-app-adbyby-plus
+#git clone https://github.com/1287329/adbyby-plus ./luci-app-adbyby-plus
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/baidupcs-web
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-baidupcs-web
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus

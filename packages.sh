@@ -12,10 +12,10 @@ rm -rf OpenClash
 #svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
 #svn co https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk ./luci-app-jd-dailybonus
 #svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
-svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
+#svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 #svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
 #rm -rf .svn
-svn co https://github.com/fw876/helloworld/trunk ./
+#svn co https://github.com/fw876/helloworld/trunk ./
 #rm -rf .svn
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
@@ -92,7 +92,7 @@ svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
 #svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 #git clone https://github.com/jerrykuku/luci-app-argon-config
 #svn co https://github.com/BCYDTZ/luci-app-UUGameAcc/trunk ./luci-app-UUGameAcc
-svn co https://github.com/garypang13/openwrt-bypass/trunk/luci-app-bypass
+#svn co https://github.com/garypang13/openwrt-bypass/trunk/luci-app-bypass
 #svn co https://github.com/garypang13/openwrt-bypass/trunk/smartdns-le
 #svn co https://github.com/esirplayground/luci-app-LingTiGameAcc/trunk ./luci-app-LingTiGameAcc
 #svn co https://github.com/esirplayground/LingTiGameAcc/trunk ./LingTiGameAcc

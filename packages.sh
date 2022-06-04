@@ -4,11 +4,11 @@
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome ./luci-app-adguardhome
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 #svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
-#rm -rf luci-app-openclash
-#rm -rf OpenClash
-#git clone https://github.com/vernesong/OpenClash.git
-#mv -f OpenClash/luci-app-openclash .
-#rm -rf OpenClash
+rm -rf luci-app-openclash
+rm -rf OpenClash
+git clone https://github.com/vernesong/OpenClash.git
+mv -f OpenClash/luci-app-openclash .
+rm -rf OpenClash
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-autoreboot
 #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 svn co https://github.com/immortalwrt/packages/trunk/net/smartdns

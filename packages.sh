@@ -10,12 +10,11 @@
 #mv -f OpenClash/luci-app-openclash .
 #rm -rf OpenClash
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-autoreboot
-svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 svn co https://github.com/immortalwrt/packages/trunk/net/smartdns
 git clone https://github.com/pymumu/luci-app-smartdns
 #rm -rf .svn
-#svn co https://github.com/fw876/helloworld/trunk ./
+svn co https://github.com/fw876/helloworld/trunk ./
 #rm -rf .svn
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns

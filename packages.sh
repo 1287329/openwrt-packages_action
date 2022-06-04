@@ -31,7 +31,8 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusic
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
-git clone https://github.com/1287329/adbyby-plus ./luci-app-adbyby-plus
+svn co https://github.com/1287329/luci-app-adbyby-plus
+#git clone https://github.com/1287329/luci-app-adbyby-plus ./luci-app-adbyby-plus
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/baidupcs-web
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-baidupcs-web
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus
@@ -48,22 +49,9 @@ git clone https://github.com/1287329/adbyby-plus ./luci-app-adbyby-plus
 #wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O parted/Makefile
 #rm -rf .svn
 #svn co https://github.com/destan19/OpenAppFilter/trunk ./
-#svn co https://github.com/4IceG/luci-app-3ginfo/trunk/luci-app-3ginfo
-#rm -rf luci-app-wrtbwmon
-#rm -rf wrtbwmonluci
-#git clone -b old-master https://github.com/brvphoenix/luci-app-wrtbwmon.git wrtbwmonluci
-#mv -f wrtbwmonluci/luci-app-wrtbwmon .
-#rm -rf wrtbwmonluci
 #svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper
 #svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper
 #svn co https://github.com/brvphoenix/wrtbwmon/branches/old-master/wrtbwmon
-#svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
-#svn co https://github.com/tty228/luci-app-nodogsplash/trunk ./luci-app-nodogsplash
-#svn co https://github.com/koshev-msk/luci-app-atinout/trunk ./luci-app-atinout
-#mkdir ./atinout
-#mv ./luci-app-atinout/Makefile.atinout ./atinout/Makefile
-#svn co https://github.com/muink/luci-app-pcap-dnsproxy/branches/dev ./luci-app-pcap-dnsproxy
-#svn co https://github.com/koshev-msk/3proxy-openwrt/trunk ./3proxy
 #svn co https://github.com/pexcn/openwrt-chinadns-ng/branches/luci ./luci-app-chinadns-ng
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-usb-printer
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ramfree
@@ -79,22 +67,6 @@ git clone https://github.com/1287329/adbyby-plus ./luci-app-adbyby-plus
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliyun
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_dnspod
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
-#svn co https://github.com/immortalwrt/packages/trunk/net/udpspeeder
-#git clone https://github.com/koshev-msk/luci-app-modeminfo
-#svn co https://github.com/immortalwrt/packages/trunk/net/pcap-dnsproxy
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
-#svn co https://github.com/immortalwrt/packages/trunk/net/dnscrypt-proxy
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder
-#svn co https://github.com/obsy/packages/trunk/3ginfo
-#svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
-#git clone https://github.com/jerrykuku/luci-app-argon-config
-#svn co https://github.com/BCYDTZ/luci-app-UUGameAcc/trunk ./luci-app-UUGameAcc
-#svn co https://github.com/garypang13/openwrt-bypass/trunk/luci-app-bypass
-#svn co https://github.com/garypang13/openwrt-bypass/trunk/smartdns-le
-#svn co https://github.com/esirplayground/luci-app-LingTiGameAcc/trunk ./luci-app-LingTiGameAcc
-#svn co https://github.com/esirplayground/LingTiGameAcc/trunk ./LingTiGameAcc
 
 rm -rf .svn
 rm -rf ./*/.git

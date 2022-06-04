@@ -31,8 +31,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusic
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
-svn co https://github.com/1287329/luci-app-adbyby-plus
-#git clone https://github.com/1287329/luci-app-adbyby-plus ./luci-app-adbyby-plus
+git clone https://github.com/1287329/luci-app-adbyby-plus ./luci-app-adbyby-plus
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/baidupcs-web
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-baidupcs-web
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus

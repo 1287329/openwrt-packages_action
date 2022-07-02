@@ -1,71 +1,46 @@
 #!/bin/bash
-#svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./luci-app-adguardhome
-#git clone https://github.com/rufengsuixing/luci-app-adguardhome ./luci-app-adguardhome
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
-#svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
-rm -rf luci-app-openclash
-rm -rf OpenClash
-git clone https://github.com/vernesong/OpenClash.git
-mv -f OpenClash/luci-app-openclash .
-rm -rf OpenClash
-svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-autoreboot
-#svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
-#svn co https://github.com/immortalwrt/packages/trunk/net/smartdns
-#git clone https://github.com/pymumu/luci-app-smartdns
-#rm -rf .svn
-#svn co https://github.com/fw876/helloworld/trunk ./
-#rm -rf .svn
-#svn co https://github.com/xiaorouji/openwrt-passwall/trunk ./
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
-svn co https://github.com/kenzok8/openwrt-packages/trunk/smartdns
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-argon_new
-#svn co https://github.com/kenzok8/luci-theme-ifit/trunk/luci-theme-ifit
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
-#svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat
-#svn co https://github.com/jerrykuku/node-request/trunk ./node-request
-#svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
-#svn co https://github.com/rosywrt/luci-theme-rosy/trunk/luci-theme-rosy
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusic
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/UnblockNeteaseMusicGo
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
-git clone https://github.com/1287329/luci-app-adbyby-plus ./luci-app-adbyby-plus
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/baidupcs-web
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-baidupcs-web
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-airplay2
-#svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom
-#svn co https://github.com/immortalwrt/luci-app-koolproxyR/trunk ./luci-app-koolproxyR
-#svn co https://github.com/immortalwrt/packages/trunk/net/GoQuiet
-#svn co https://github.com/immortalwrt/packages/trunk/net/chinadns
-#svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
-#svn co https://github.com/lisaac/luci-lib-docker/trunk/collections/luci-lib-docker
-#svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
-#rm -rf parted
-#mkdir parted
-#wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O parted/Makefile
-#rm -rf .svn
-#svn co https://github.com/destan19/OpenAppFilter/trunk ./
-#svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper
-#svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper
-#svn co https://github.com/brvphoenix/wrtbwmon/branches/old-master/wrtbwmon
-#svn co https://github.com/pexcn/openwrt-chinadns-ng/branches/luci ./luci-app-chinadns-ng
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-usb-printer
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ramfree
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ttyd
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-unblockmusic
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-vlmcsd
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/vlmcsd
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-vsftpd
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-xlnetacc
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-frpc
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/frp
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-frps
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_aliyun
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ddns-scripts_dnspod
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-cifs-mount
+#git clone https://github.com/1287329/luci-app-adbyby-plus ./luci-app-adbyby-plus
+#svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
+#svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ttyd
+#svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-vlmcsd
+#svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/vlmcsd
+git clone --depth 1 https://github.com/kiddin9/my-packages && mvdir my-packages
+git clone --depth 1 https://github.com/kiddin9/luci-app-dnsfilter
+git clone --depth 1 https://github.com/kiddin9/aria2
+git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall
+git clone --depth 1 -b luci https://github.com/xiaorouji/openwrt-passwall passwall1 && mv -n passwall1/luci-app-passwall  ./; rm -rf passwall1
+svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant
+svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-filebrowser
+svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-aliddns
+svn export https://github.com/immortalwrt/packages/trunk/net/smartdns
+svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
+svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome
+svn export https://github.com/kiddin9/openwrt-packages/trunk/adguardhome
+svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2
+
+git_sparse_clone master "https://github.com/coolsnowwolf/packages" "leanpack" net/miniupnpd net/mwan3 multimedia/UnblockNeteaseMusic-Go \
+multimedia/UnblockNeteaseMusic net/amule net/baidupcs-web multimedia/gmediarender net/go-aliyundrive-webdav \
+net/qBittorrent-static net/qBittorrent libs/qtbase libs/qttools libs/rblibtorrent \
+net/uugamebooster net/verysync net/dnsforwarder net/nps net/microsocks net/tcpping net/redsocks2
+
+mv -n openwrt-passwall/* ./ ; rm -Rf openwrt-passwall
+mv -n openwrt-package/* ./ ; rm -Rf openwrt-package
+
+rm -rf ./*/.git & rm -f ./*/.gitattributes
+rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
+
+sed -i \
+-e 's?include \.\./\.\./\(lang\|devel\)?include $(TOPDIR)/feeds/packages/\1?' \
+-e 's?2. Clash For OpenWRT?3. Applications?' \
+-e 's?\.\./\.\./luci.mk?$(TOPDIR)/feeds/luci/luci.mk?' \
+-e 's/ca-certificates/ca-bundle/' \
+*/Makefile
+
+sed -i 's/luci-lib-ipkg/luci-base/g' luci-app-store/Makefile
+sed -i "/minisign:minisign/d" luci-app-dnscrypt-proxy2/Makefile
+sed -i 's/+dockerd/+dockerd +cgroupfs-mount/' luci-app-docker*/Makefile
+sed -i '$i /etc/init.d/dockerd restart &' luci-app-docker*/root/etc/uci-defaults/*
+sed -i 's/+libcap /+libcap +libcap-bin /' luci-app-openclash/Makefile
 
 rm -rf .svn
 rm -rf ./*/.git

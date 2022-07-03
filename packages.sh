@@ -10,13 +10,14 @@ svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adbyby-plu
 svn export https://github.com/kiddin9/openwrt-packages/trunk/filebrowser
 svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-filebrowser
 svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-rclone
-svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-store
 svn export https://github.com/kiddin9/openwrt-packages/trunk/netdata
 svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-netdata
 svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-netspeedtest
+svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-vlmcsd
 #svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
 #svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-filebrowser
 #svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-aliddns
+#svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2
 
 
 rm -rf .svn

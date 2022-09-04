@@ -6,14 +6,13 @@
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/adbyby
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adbyby-plus
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/filebrowser
-svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-filebrowser
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-rclone
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/netdata
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-netdata
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-netspeedtest
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-vlmcsd
 #svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
-#svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-filebrowser
+svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-filebrowser
 #svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-aliddns
 #svn export https://github.com/immortalwrt/packages/trunk/net/smartdns
 #svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns

@@ -22,7 +22,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome
 git clone https://github.com/xiaorouji/openwrt-passwall
 svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2
 git clone https://github.com/sbwml/luci-app-alist
-git clone https://github.com/PikuZheng/smartdns package/smartdns
+git clone https://github.com/PikuZheng/smartdns
 
 
 rm -rf .svn

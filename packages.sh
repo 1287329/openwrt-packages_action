@@ -12,9 +12,6 @@
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-netspeedtest
 #svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-vlmcsd
 #svn export https://github.com/coolsnowwolf/lede/trunk/package/lean/adbyby
-svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-filebrowser
-#svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-aliddns
-#svn export https://github.com/immortalwrt/packages/trunk/net/smartdns
 #svn export https://github.com/kenzok8/openwrt-packages/trunk/luci-app-smartdns
 #git clone https://github.com/PikuZheng/smartdns
 svn export https://github.com/kiddin9/openwrt-packages/trunk/adguardhome

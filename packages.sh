@@ -20,7 +20,9 @@ git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall
 git clone --depth 1 -b luci https://github.com/xiaorouji/openwrt-passwall passwall1 && mv -n passwall1/luci-app-passwall  ./; rm -rf passwall1
 #svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2
 git clone https://github.com/sbwml/luci-app-alist
-
+svn co https://github.com/sbwml/luci-app-mosdns/trunk/mosdns ./mosdns
+svn co https://github.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns ./luci-app-mosdns
+git clone https://github.com/sbwml/v2ray-geodata
 
 
 rm -rf .svn
